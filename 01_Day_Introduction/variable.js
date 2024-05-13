@@ -1,18 +1,28 @@
-// Declaring different variables of different data types
-let firstName = "Ayomide"; // first name of a person
-let lastName = "Olayeye"; // last name of a personq
-let country = "Nigeria"; // country
-let city = "Lagos"; // capital city
-let age = 24; // age in years
-let isMarried = false; // marital status
+number = 15; // number
+floatNumber = 3.14; // number
+string = "Hello, World!"; // string
+true; // boolean
+false; // boolean
+null;
+let firstname; // undefined
 
-// Declaring variables with number values
+let yourName;
+let number;
+let isTrue;
+let isFalse;
 
-const gravity = 9.81; // earth gravity  in m/s2
-const boilingPoint = 100; // water boiling point, temperature in oC
-const PI = 3.14; // geometrical constant
+let total = 20;
+let boy = "John";
+let isGirl = false;
+let isBoy = true;
 
-// Variables can also be declaring in one line separated by comma
-let name = "Ayomide", //name of a person
-  job = "student",
+let firstName = "Ayomide";
+let lastName = "Olayeye";
+let isMarried = false;
+let country = "Nigeria";
+let age = 24;
+
+let myName = "Ayomide",
+  job = "Web developer",
   live = "Nigeria";
+console.log(myName, job, live);
